@@ -1,0 +1,19 @@
+{
+    "entities": [
+        {
+            "name": "tasks",
+            "fields": [
+                {
+                    "name": "title",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "name": "completed",
+                    "type": "boolean",
+                    "required": false
+                }
+            ]
+        }
+    ]
+}
